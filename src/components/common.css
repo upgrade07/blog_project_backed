@@ -1,0 +1,55 @@
+.post{
+    width: 85%;
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: 45% 55%;
+    border-bottom: 1px solid darkgray;
+    height: auto;
+}
+
+
+
+.rightside *{
+    margin-top: 0.2rem;
+    margin-left: 10px;
+}
+
+.leftside>img{
+    height: 90%;
+    width: 100%;
+}
+
+.header{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+
+.desc{
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-size: small;
+}
+
+.category{
+    margin-left: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.date{
+    font-size: small;
+    color: grey;
+}
+
+.latest{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    border: 2px solid black;
+}

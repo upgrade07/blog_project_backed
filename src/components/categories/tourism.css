@@ -1,0 +1,59 @@
+.tourism{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: auto;
+    background-color: transparent;
+    height: auto;
+}
+
+.heading{
+    border-bottom: 5px solid red;
+    width: 12%;
+}
+
+.rightcontent{
+    margin: 0;
+    
+}
+.rightcontent img{
+    height: 70px;
+    
+}
+.rightcontent h2{
+    font-size: x-large;
+    margin-bottom: 0.1rem;
+}
+.rightcontent *{
+    padding: 0.2rem;
+    font-size: small;
+}
+.rightcontent *{
+    margin: 0;
+    margin-top: 0.2rem;
+    padding: 0;
+}
+.leftcontent{
+    margin-top: 0.4rem;
+}
+
+
+.hrtag{
+    margin-bottom: 2rem;
+    margin: 0;
+    height: 0.2rem;
+    width: 15%;
+    background-color: red;
+}
+
+.advert{
+    margin-top: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    border: 1px solid darkgray;
+}

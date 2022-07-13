@@ -1,0 +1,19 @@
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 20px;
+    background-color: transparent;
+    
+}
+
+
+
+.logo >img{
+    margin: auto;
+    width: 150px;
+}
